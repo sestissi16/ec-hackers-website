@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,6 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Header">
+          <img className="LogoImg" src="C:\Users\sugar\csProjects\ec-hackers-website\src\squirrel hacks logo 2.png" alt="hackathon logo" />
           <h1 className="App-title">Welcome to React</h1>
         </div>
         <div className="Body">
