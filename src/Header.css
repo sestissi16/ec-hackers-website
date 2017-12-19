@@ -1,0 +1,21 @@
+.Header{
+  background-color: #1D1920;
+  height:150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-title {
+  font-size: 2.5em;
+  align-self: center;
+  padding-left: 20px;
+  font-family: 'Berkshire Swash', cursive;    
+}
+
+.LogoImg{
+  padding-left: 30px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
