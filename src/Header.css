@@ -1,5 +1,5 @@
 .Header{
-  background-color: #1D1920;
+  background-color: rgba(29, 25, 32, 0.95);
   height:150px;
   display: flex;
   flex-direction: row;
