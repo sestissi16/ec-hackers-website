@@ -7,15 +7,23 @@
 }
 
 .App-title {
-  font-size: 2.5em;
+  font-size: 2.6em;
   align-self: center;
   padding-left: 20px;
-  font-family: 'Berkshire Swash', cursive;    
+  font-family: 'Berkshire Swash', cursive;
+  color: #E7D9CA; 
+    
 }
 
 .LogoImg{
   padding-left: 30px;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  /* border-radius: 50%; */
+}
+
+.ECLogo {
+  width: 85px;
+  height: 85px;
+  padding-left: 45em;
 }
