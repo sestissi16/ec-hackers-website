@@ -25,3 +25,8 @@
 .link1 {
     margin-left: 7px; 
 }
+
+.Link1, .Link2, .Link3 {
+    text-decoration: none;
+    color: #E7D9CA;
+}
