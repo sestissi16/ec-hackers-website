@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: absolute;
   background-image: url('http://earlham.edu/media/2261474/hero-facilities.jpg');
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   color: #E7D9CA;
   
 }
