@@ -8,7 +8,7 @@ class NavigationBar extends Component {
             <div className="menu">
                 <img src="http://moziru.com/images/squirrel-clipart-20.png" alt="hackathon logo" className="NavLogoImg" />
                 <p className="AppTitle">Squirrel Hack</p>
-                <div className= "link1"><Link to="/Home" className="Link1" >Home</Link></div>
+                <div className= "link1"><Link to="/" className="Link1" >Home</Link></div>
                 <div className="link2"><Link to="/SignUp" className="Link2">SignUp</Link></div>
                 <div className="link3"><Link to="/About" className="Link3">About</Link></div>
                 <div className="link4"><Link to="/FAQ" className="Link4"> FAQ </Link></div>

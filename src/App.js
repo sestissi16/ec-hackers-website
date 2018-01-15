@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route path="/Home" render={() => (
+        <Route exact path="/" render={() => (
           <HomePage />
         )}/>
         <Route path="/SignUp" render={() => (
