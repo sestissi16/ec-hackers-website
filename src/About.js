@@ -7,7 +7,9 @@ class Info extends Component {
         return(
             <div className="InfoBody">
                 <NavigationBar />
-                <h1>Welcome to the Info Page!</h1>
+                <div className="AboutContent">
+                    <h1>Welcome to the Info Page!</h1>
+                </div>
             </div>
         );
     }

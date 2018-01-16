@@ -7,7 +7,9 @@ class Sponsors extends Component {
         return(
             <div className="SponsorsPage">
                 <NavigationBar />
-                <p>Welcome to the Sponsors Page</p>
+                <div className="SponsorsContent">
+                    <p>Welcome to the Sponsors Page</p>
+                </div>
             </div>
         );
     }

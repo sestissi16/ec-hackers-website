@@ -8,7 +8,9 @@ class Schedule extends Component {
         return(
             <div className="SchedulePage">
                 <NavigationBar />
-                <p>Welcome to the Schedule Page</p>
+                <div className="ScheduleContent">
+                    <p>Welcome to the Schedule Page</p>
+                </div>
             </div>
         );
     }

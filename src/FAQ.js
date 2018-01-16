@@ -8,7 +8,9 @@ class FAQ extends Component {
         return(
             <div className="FAQPage">
                 <NavigationBar />
-                <p>Welcome to the FAQ</p>
+                <div className="FAQContent">
+                    <p>Welcome to the FAQ</p>
+                </div>
             </div>
         );
     }
