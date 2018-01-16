@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './NavigationBar.css';
+import SquirrelHackIcon from './finished-squirrel-hack-logo-transparent.png'
 
 class NavigationBar extends Component {
     render() {
         return(
             <div className="menu">
-                <img src="http://moziru.com/images/squirrel-clipart-20.png" alt="hackathon logo" className="NavLogoImg" />
+                <img src={SquirrelHackIcon} alt="hackathon logo" className="NavLogoImg" />
                 <p className="AppTitle">Squirrel Hack</p>
                 <div className= "link1"><Link to="/" className="Link1" >Home</Link></div>
                 <div className="link2"><Link to="/SignUp" className="Link2">SignUp</Link></div>
