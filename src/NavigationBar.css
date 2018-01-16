@@ -6,6 +6,8 @@
     /* background-color: rgba(66, 42, 60, 0.9); */
     background-color: rgba(29, 25, 32, 0.95);
     padding: .5em .5em .5em 1em;
+    position: fixed;
+    width: 100%;
 }
 .link1, .link2, .link3, .link4, .link5, .link6 {
     margin-right:25px;
