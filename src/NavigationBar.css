@@ -32,18 +32,19 @@
     color: #E7D9CA;
 }
 .NavLogoImg {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3.7em;
+    height: 3.7em;
     padding-right:1em;
+    padding-left: 1em;
 }
 .NavECLogo {
-    width: 3.5em;
-    height: 3.5em;
-    padding-left: 7em;
+    width: 3.3em;
+    height: 3.3em;
+    padding-left: 4em;
 }
 .AppTitle {
     font-family: 'Berkshire Swash', cursive;
     font-size: 1.5em;
     margin: .4em;
-    padding-right: 3em;
+    padding-right: 1em;
 }
