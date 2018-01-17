@@ -11,7 +11,14 @@ class NavigationBar extends Component {
                 <Media query={{maxWidth:1024}}>
                     {
                         matches => matches ? (
-                            <p>Smaller Screen</p>
+                            <ul className="dropdown menu" data-dropdown-menu>
+                                <li>
+                                    Menus
+                                    <ul className="smallMenu">
+                                        <li><Link to="/" className="Link1" >Home</Link></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         ) : (
                             <div className="menu">
                                 <img src={SquirrelHackIcon} alt="hackathon logo" className="NavLogoImg" />
