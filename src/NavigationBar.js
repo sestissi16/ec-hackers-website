@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './NavigationBar.css';
 import SquirrelHackIcon from './finished-squirrel-hack-logo-transparent.png'
 import Media from 'react-media';
+import SmallNavigationBar from './SmallNavigationBar.js';
+
 
 class NavigationBar extends Component {
     render() {
@@ -11,14 +13,7 @@ class NavigationBar extends Component {
                 <Media query={{maxWidth:1024}}>
                     {
                         matches => matches ? (
-                            <ul className="dropdown menu" data-dropdown-menu>
-                                <li>
-                                    Menus
-                                    <ul className="smallMenu">
-                                        <li><Link to="/" className="Link1" >Home</Link></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <SmallNavigationBar />
                         ) : (
                             <div className="menu">
                                 <img src={SquirrelHackIcon} alt="hackathon logo" className="NavLogoImg" />

@@ -1,0 +1,52 @@
+.smallMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(29, 25, 32, 0.99);
+    padding: .5em .5em .5em 1em;
+    position: fixed;
+    width: 100%;
+}
+.smalllink1, .smalllink2, .smalllink3, .smalllink4, .smalllink5, .smalllink6 {
+    margin-right: 1.5em;
+    margin-top: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: .5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-bottom: 5px;
+    font-family: 'Bungee';
+    font-size: 0.7em;
+}
+.smalllink1:hover, .smalllink2:hover, .smalllink3:hover, .smalllink4:hover, .smalllink5:hover, .smalllink6:hover {
+    border-width: 2px;
+    border-right: solid;
+    border-left: solid;
+    background-color: rgba(20, 17, 22, 0.99); 
+}
+.smalllink1{
+    margin-left: 1em;
+}
+.SmallLink1, .SmallLink2, .SmallLink3, .SmallLink4, .SmallLink5, .SmallLink6 {
+    text-decoration: none;
+    color: #E7D9CA;
+}
+.SmallNavLogoImg{
+    width: 4em;
+    height: 4em;
+    padding-right: 0.9em;
+}
+.SmallNavECLogo {
+    width: 3.3em;
+    height: 3.3em;
+}
+.SmallAppTitle {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1em;
+    margin: .1em;
+    padding-right: 0.2em;
+}
