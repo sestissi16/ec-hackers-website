@@ -10,4 +10,32 @@ p {
 }
 .SignUpContent{
     padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SignUpTitle{
+    font-size: 5em;
+    margin-bottom: -0.01em;
+}
+.SignUpInstruction{
+    font-size: 2em;
+    margin-bottom: 2.5em;
+}
+.SignUpLink{
+    text-decoration: none;
+    color: #E7D9CA;
+    font-size: 2em;
+    font-family: 'Bungee';
+    
+}
+.SignUpButton{
+    border: solid;
+    border-radius: 20%;
+    border-width: 0.5em;
+    border-color: rgba(15, 13, 17, 0.99);
+    background-color: rgba(29, 25, 32, 0.99);
+    width:30%;
+    padding: 2em;
 }
