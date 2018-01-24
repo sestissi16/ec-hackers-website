@@ -5,4 +5,15 @@
 }
 .FAQContent{
     padding-top: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+.FAQTitle{
+    font-size: 2.5em;
+}
+span{
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.FAQSub{
+    font-size: 2em;
 }
