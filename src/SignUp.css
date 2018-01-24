@@ -1,7 +1,7 @@
 .SignUpBody {
-    width:100%;
-    height:100%;
-    background-color: rgba(168, 19, 69, 0.8);
+    width:214.5vh;
+    height: 100vh;
+    background:rgba(168, 19, 69, 0.8);
     font-family: 'Berkshire Swash', cursive;
 }
 p {
@@ -14,6 +14,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4em;
 }
 .SignUpTitle{
     font-size: 5em;
