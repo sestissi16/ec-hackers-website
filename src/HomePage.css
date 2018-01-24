@@ -5,14 +5,24 @@
     background-color: rgba(168, 19, 69, 0.8);
     font-family: 'Berkshire Swash', cursive;
   }
-.HackathonPic{
-  width: 600px;
-  height: 200px;
-}
-.RandoPic{
-  width: 600px;
-  height: 200px;
+.LogoPic{
+  width: 20em;
+  height: 20em;
+  padding: 3em 3em 0em 3em
 }
 .Content{
   padding-top: 5em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#WelcomeTitle{
+  font-size: 3.5em;
+}
+.WelcomeSub, .TagLine{
+  font-size: 2em;
+}
+.WordContent{
+  padding-top: 3em;
 }
