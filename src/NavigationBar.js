@@ -17,7 +17,7 @@ class NavigationBar extends Component {
                         ) : (
                             <div className="menu">
                                 <img src={SquirrelHackIcon} alt="hackathon logo" className="NavLogoImg" />
-                                <p className="AppTitle">Squirrel Hack</p>
+                                <p className="AppTitle">Squirrel Hacks</p>
                                 <div className= "link1"><Link to="/" className="Link1" >Home</Link></div>
                                 <div className="link2"><Link to="/SignUp" className="Link2">SignUp</Link></div>
                                 <div className="link3"><Link to="/About" className="Link3">About</Link></div>

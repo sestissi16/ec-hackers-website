@@ -8,7 +8,7 @@ class SmallNavigationBar extends Component{
         return(
             <div className="smallMenu">
                 <img src={SquirrelHackIcon} alt="hackathon logo" className="SmallNavLogoImg" />
-                <p className="SmallAppTitle">Squirrel Hack</p>
+                <p className="SmallAppTitle">Squirrel Hacks</p>
                 <div className= "smalllink1"><Link to="/" className="SmallLink1" >Home</Link></div>
                 <div className="smalllink2"><Link to="/SignUp" className="SmallLink2">SignUp</Link></div>
                 <div className="smalllink3"><Link to="/About" className="SmallLink3">About</Link></div>
