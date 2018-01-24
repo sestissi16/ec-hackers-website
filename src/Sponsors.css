@@ -5,4 +5,25 @@
 }
 .SponsorsContent{
     padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SponsorsTitle{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.5em;
+}
+.SponsorsSub{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5em;
+}
+.SponsorsListTitle{
+    font-family: 'Berkshire Swash', cursive;
+    font-size:1.3em;
+}
+.BigList{
+    font-family: 'Berkshire Swash', cursive;
+    width:30%;
+    text-align: left;
 }
