@@ -9,7 +9,8 @@ class Schedule extends Component {
             <div className="SchedulePage">
                 <NavigationBar />
                 <div className="ScheduleContent">
-                    <p>Welcome to the Schedule Page</p>
+                    <h1 className="ScheduleTitle">Welcome to the Schedule Page</h1>
+                    <h2 className="ScheduleSub">Come back soon for the official schedule</h2>
                 </div>
             </div>
         );
