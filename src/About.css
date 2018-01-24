@@ -10,24 +10,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2em;
 }
 .AboutTitle{
     font-size: 2.5em;
 }
 table{
     width: 85%;
-    border: 1px solid #000000;
     border-collapse: collapse;
 }
 th{
     text-align: center;
-    border: 1px solid #000000;
+    border-top: 0.23em solid rgb(19, 3, 4);
     width: 50%;
     font-size: 2em;
 }
 td{
     text-align: left;
-    border: 1px solid #000000;
+    border-top: 0.3em groove rgb(139, 19, 29);
     width: 50%;
     padding: 1.2em;
     font-size: 1.5em;

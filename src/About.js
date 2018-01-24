@@ -24,6 +24,16 @@ class Info extends Component {
                                 from the Richmond area and beyond.
                             </td>
                         </tr>
+                        <tr>
+                            <th>What's different about our hackathon?</th>
+                            <td>Squirrel Hacks is a hackathon with and Earlham spin on it, meaning:
+                                <ul>
+                                    <li>It is highly collaborative, bringing people from different areas of expertise together to solve a problem of common interest.</li>
+                                    <li>It will provide a relaxed and welcoming environment by providing stress relieving activities and no-tech sleeping areas.</li>
+                                    <li>It is multi-themed, with some being Social Justice, Global/Public Health, Innovation, etc.</li>
+                                </ul>
+                            </td>
+                        </tr>
                     </table>
                 </div>
             </div>
