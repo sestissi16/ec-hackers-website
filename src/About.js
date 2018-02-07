@@ -19,18 +19,18 @@ class Info extends Component {
                         </tr>
                         <tr>
                             <th>What is Squirrel Hacks 2018?:</th>
-                            <td>Squirrel Hacks 2018 is hackathon that Earlham Hackers club is organizing for March 2018. 
-                                This hackathon will be hosted on the Earlham College campus and hopes to bring creative minds from colleges 
-                                from the Richmond area and beyond.
+                            <td>Squirrel Hacks 2018 is a hackathon that Earlham Hackers club is organizing for March 3rd and 4th. 
+                                The hackathon will be hosted on the Earlham College campus. 
+                                We hope to bring creative minds from colleges of the Richmond area and beyond.
                             </td>
                         </tr>
                         <tr>
-                            <th>What's different about our hackathon?</th>
+                            <th>What's different about our hackathon?:</th>
                             <td>Squirrel Hacks is a hackathon with and Earlham spin on it, meaning:
                                 <ul>
                                     <li>It is highly collaborative, bringing people from different areas of expertise together to solve a problem of common interest.</li>
-                                    <li>It will provide a relaxed and welcoming environment by providing stress relieving activities and no-tech sleeping areas.</li>
-                                    <li>It is multi-themed, with some being Social Justice, Global/Public Health, Innovation, etc.</li>
+                                    <li>We will provide a relaxed and welcoming environment by offering stress-relieving activities and no-tech sleeping areas.</li>
+                                    <li>It is multi-themed, with some being social justice, global/public health, innovation, and more!</li>
                                 </ul>
                             </td>
                         </tr>
