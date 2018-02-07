@@ -12,7 +12,7 @@ class SignUp extends Component {
                 <div className="SignUpContent">
                     {/* <div> { ReactHtmlParser(html) } </div> */}
                     <h1 className="SignUpTitle">So you want to join in on the fun?</h1>
-                    <h2 className="SignUpInstruction">Follow the link below to sign up and be apart of the Squirrel Hack!</h2>
+                    <h2 className="SignUpInstruction">Follow the link below to sign up and be apart of Squirrel Hacks!</h2>
                     <div className="SignUpButton"><a href="https://saris7.typeform.com/to/G1GYux" className="SignUpLink">Sign Up Here!</a></div>
                 </div>
             </div>
