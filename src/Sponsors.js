@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import './Sponsors.css';
-import NavigationBar from './NavigationBar.js';
 
 class Sponsors extends Component {
     render() {
         return(
             <div className="SponsorsPage">
-                <NavigationBar />
                 <div className="SponsorsContent">
                     <h1  className="SponsorsTitle">Welcome to the Sponsors Page</h1>
                     <h2 className="SponsorsSub">How can you make it happen or get involved?</h2>

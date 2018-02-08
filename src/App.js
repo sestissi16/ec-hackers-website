@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Scrollchor from 'react-scrollchor';
 
 import './App.css';
+import NavigationBar from './NavigationBar.js';
 import HomePage from './HomePage.js'; 
 import SignUp from './SignUp.js';
 import About from './About.js';
@@ -13,7 +14,10 @@ import Sponsors from './Sponsors.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App"> 
+        <div className="navBar">
+          <NavigationBar />
+        </div>
         <div id="HomePage">
           <HomePage />
         </div>

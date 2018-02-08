@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './HomePage.css';
-import NavigationBar from './NavigationBar.js';
 import SquirrelLogo from './finished-squirrel-hack-logo-transparent.png'
 
 class HomePage extends Component {
     render() {
         return(
             <div className="Body">
-                <NavigationBar />
                 <div className="Content row">
                     <img className="LogoPic column small-1 medium-3" src={SquirrelLogo} alt="Squirrel Hack Logo" />
                     <div className="WordContent">
