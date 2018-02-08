@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom'
+// import { Route, Switch, Redirect } from 'react-router-dom'
+import Scrollchor from 'react-scrollchor';
 
 import './App.css';
-import Header from './Header.js';
 import HomePage from './HomePage.js'; 
 import SignUp from './SignUp.js';
 import About from './About.js';
@@ -14,24 +14,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route exact path="/" render={() => (
+        <div id="HomePage">
           <HomePage />
-        )}/>
-        <Route path="/SignUp" render={() => (
+        </div>
+        <div id="SignUp">
           <SignUp />
-        )}/>
-        <Route path="/About" render={() => (
+        </div>
+        <div id="About">
           <About />
-        )}/>
-        <Route path="/FAQ" render={() => (
+        </div>
+        <div id="FAQ">
           <FAQ />
-        )}/>
-        <Route path="/Schedule" render={() => (
+        </div>
+        <div id="Schedule">
           <Schedule />
-        )}/>
-        <Route path="/Sponsors" render={() => (
+        </div>
+        <div id="Sponsors">
           <Sponsors />
-        )}/>
+        </div>
       </div>
     );
   }
