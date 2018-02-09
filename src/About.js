@@ -6,7 +6,7 @@ class Info extends Component {
         return(
             <div className="InfoBody">
                 <div className="AboutContent">
-                    <h1 className="AboutTitle">Welcome to the Info Page!</h1>
+                    <h1 className="AboutTitle">Info about our Hackathon</h1>
                     <table>
                         <tr>
                             <th>What is a Hackathon?:</th>
