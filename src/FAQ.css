@@ -6,6 +6,10 @@
 .FAQContent{
     padding-top: 3em;
     font-family: 'Berkshire Swash', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .FAQTitle{
     font-size: 2.5em;
