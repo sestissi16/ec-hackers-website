@@ -24,6 +24,7 @@ class Sponsors extends Component {
                             <li>Voluntary services</li>
                         </ul>
                     </ul>
+                    <h3 className="SponsorEmail">If you'd like to help send us an email at <span><u>ecsquirrelhacks@gmail.com</u></span> and we'll get back to you!</h3>
                 </div>
             </div>
         );
