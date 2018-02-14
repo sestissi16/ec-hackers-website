@@ -7,7 +7,7 @@ class Schedule extends Component {
         return(
             <div className="SchedulePage">
                 <div className="ScheduleContent">
-                    <h1 className="ScheduleTitle">Welcome to the Schedule Page</h1>
+                    <h1 className="ScheduleTitle">Welcome to the Schedule Section</h1>
                     <div className="scheduleListContainer">
                         <ul className="ScheduleList"><span className='ListTitleSched'>Saturday - March 3rd, 2018</span>
 

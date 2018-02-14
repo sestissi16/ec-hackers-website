@@ -6,7 +6,7 @@ class Sponsors extends Component {
         return(
             <div className="SponsorsPage">
                 <div className="SponsorsContent">
-                    <h1  className="SponsorsTitle">Welcome to the Sponsors Page</h1>
+                    <h1  className="SponsorsTitle">Welcome to the Sponsors Section</h1>
                     <h2 className="SponsorsSub">How can you make it happen or get involved?</h2>
                     <h3 className="SponsorsListTitle">You can support the event in the following forms:</h3>
                     <ul className="BigList">
