@@ -7,6 +7,11 @@ class Sponsors extends Component {
             <div className="SponsorsPage">
                 <div className="SponsorsContent">
                     <h1  className="SponsorsTitle">Welcome to the Sponsors Section</h1>
+                    <div className="actualSponsors">
+                        <h1 className="SponsorName">Our generous sponsors: </h1>
+                        <h1 className="SponsorName">Experiential Learning Fund,</h1>
+                        <h1 className="SponsorName">Earlham CoLab Centers</h1>
+                    </div>
                     <h2 className="SponsorsSub">How can you make it happen or get involved?</h2>
                     <h3 className="SponsorsListTitle">You can support the event in the following forms:</h3>
                     <ul className="BigList">

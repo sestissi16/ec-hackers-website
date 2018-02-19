@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 .SponsorsTitle{
     /* font-family: 'Berkshire Swash', cursive; */
@@ -27,4 +28,14 @@
     /* font-family: 'Berkshire Swash', cursive; */
     width:30%;
     text-align: left;
+}
+.actualSponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Acme", cursive;
+}
+.SponsorName{
+    padding-right: 1em;
 }
